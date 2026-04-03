@@ -1,0 +1,13 @@
+estilourbano/
+├── pages/
+│   ├── index.tsx           <-- Inicio con productos
+│   ├── product/[id].tsx    <-- Página individual de producto
+│   ├── cart.tsx            <-- Carrito con botón Stripe
+│   ├── login.tsx           <-- Login / Registro
+├── lib/
+│   └── supabase.ts         <-- Conexión Supabase
+├── styles/
+│   └── globals.css         <-- Graffiti negro/azul/amarillo
+├── package.json            <-- Dependencias
+├── tsconfig.json           <-- TypeScript
+├── next.config.js          <-- Configuración Next.js
